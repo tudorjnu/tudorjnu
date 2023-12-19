@@ -16,7 +16,7 @@ class TudorJianu:
 
     def say_hi(self):
         print(f"Hello, my name is {self.name}! I am a {self.role} at {self.university}.")
-        print("Thanks for dropping by! Don't hesitate to message me if you find \
+        print("Thanks for dropping by! Don't hesitate to message me if you find
                myself or my work interesting :)")
 
 
