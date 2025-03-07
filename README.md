@@ -4,20 +4,23 @@ class TudorJianu:
     def __init__(self):
         self.name = "Tudor Jianu"
         self.role = "PhD Researcher in Artificial Intelligence"
-        self.interests = ["Software Development", "Artificial Intelligence", 
-                          "Self Development"]
+        self.interests = [
+            "Software Development", "Artificial Intelligence", "Self Development"
+        ]
         self.education = {
             "Masters": "Data Science and Artificial Intelligence",
             "Bachelours": "Business Administration"
         }
-        self.activities = ["Bouldering", "Gymnastics Rings", "Muay Thai", "Hiking", 
-                           "Board Games"]
+        self.activities = [
+            "Bouldering", "Gymnastics Rings", "Muay Thai", "Hiking", "Board Games"
+        ]
         self.university = "University of Liverpool"
 
     def say_hi(self):
         print(f"Hello, my name is {self.name}! I am a {self.role} at {self.university}.")
-        print("Thanks for dropping by! Don't hesitate to message me if you find
-               myself or my work interesting :)")
+        print(
+            "Thanks for dropping by! Don't hesitate to message me if you find myself or my work interesting :)"
+        )
 
 
 me = TudorJianu()
